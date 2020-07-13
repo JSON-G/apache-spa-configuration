@@ -1,4 +1,4 @@
-# apache-spa-configuration
+<h1>Apache htaccess configuration for (SPA) Single Page Applications</h1>
 
 <p>These are helpful codes for your <code>.htaccess</code></p>
 <p>These codes can help route the requests to <code>index.html</code> to enable client-side routing to kick in (e.g., react-router-dom BrowserRouter).</p>
