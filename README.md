@@ -23,5 +23,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.html?path=$1 [NC,L,QSA]
 ```
 <b>Notes:</b><br>
-<p>These codes code assumes that <code>index.html</code> is the entry point for your SPA</p>
-<p>These codes assumes that your project is hosted at root directory and <code>.htaccess</code> is seated at root as well.</p>
+<p>These codes assumes that <code>index.html</code> is the entry point for your SPA</p>
+<p>These codes assumes that your project is hosted at root directory (subdirectory for admin) and <code>.htaccess</code> is seated at root as well.</p>
